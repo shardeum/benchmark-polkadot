@@ -1,0 +1,20 @@
+{
+  "name": "spam-client-orchestrator",
+  "version": "1.0.0",
+  "description": "Control over many hosts!",
+  "main": "orchestrator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "app": "node orchestrator.js"
+  },
+  "keywords": [
+    "terminal"
+  ],
+  "author": "jairajdev",
+  "license": "ISC",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "blessed-xterm": "^1.4.1",
+    "tail": "^2.2.4"
+  }
+}
